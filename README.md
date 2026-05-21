@@ -5,10 +5,12 @@ It's a library for Arduino UNO Q to drive OLED display(128x64pixels).
 
 ## 使用方法
 
+```bash 
 sketch/
 ├── SSD1306_Zephyr.h      ← 添加这个头文件
 ├── SSD1306_Zephyr.cpp    ← 还有这个CPP文件
 ├── your_main.ino         ← 使用 #include "SSD1306_Zephyr.h"
+```
 
 ## 添加初始化的操作：
 ```cpp
